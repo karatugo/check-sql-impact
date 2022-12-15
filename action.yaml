@@ -12,6 +12,6 @@ inputs:
     default: ''
 runs:
   using: 'docker'
-  image: 'docker://alvindotai/alvin-cli:latest'
+  image: 'docker://alvindotai/alvin-cli:test'
   args:
     - ${{inputs.args}}
